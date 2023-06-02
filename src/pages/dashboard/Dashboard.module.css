@@ -1,0 +1,17 @@
+.root {
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+    padding: 1rem;
+}
+
+.summary {
+    margin-bottom: 0.5rem;
+}
+
+.widgets {
+    flex-grow: 1;
+    overflow: auto;
+}
