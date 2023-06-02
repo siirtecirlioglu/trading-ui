@@ -5,7 +5,7 @@ export default function useBalances() {
     useEffect(() => {
         async function fetchData() {
             const resp = await signedRequest(null, "GET", RESOURCE_REST_ENDPOINTS.ACCOUNT_INFO);
-            if (resp.ok) {
+            if (resp?.ok) {
                 const data = await resp.json(); // TODO Create TS Interface for this
                 console.log(data);
             } else {

@@ -104,7 +104,7 @@ export default function SpotOrderForm() {
                 timestamp: Date.now()
             };
             const resp = await signedRequest(data, "POST", RESOURCE_REST_ENDPOINTS.SEND_ORDER);
-            if (resp.ok) {
+            if (resp?.ok) {
                 const data = await resp.json(); // TODO Create TS Interface for this
                 console.log(data);
             } else {
