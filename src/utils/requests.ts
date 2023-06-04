@@ -3,8 +3,8 @@ import { stringify } from "querystring";
 
 // NOTE: THIS SHOULD NEVER LIVE ON THE CLIENT SIDE AS STATIC DATA!!!!! EITHER USE NODEJS BACKEND (IDEAL) OR GET FROM ANOTHER WAY ON LOAD
 const BINANCE_CONFIG = {
-    API_KEY: "7DxsfoZXbD1bdZ0FHn2O5E9rK6TOxHSPT6mWtHNYh9hH0O7VX2vuRh5fL0ZkUHCM",
-    API_SECRET: "zaN5ufMulwOlcLmPQOQTvia0dl86dwHDProQmHSvVyCpIHFWV2kTxUy7aaJv8AIH",
+    API_KEY: "",
+    API_SECRET: "",
 }
 
 export const BINANCE_BASE_URL = "https://testnet.binance.vision";
